@@ -40,18 +40,7 @@ if profit >= 0:
 else:
     st.error("❌ Wir machen Verlust.")
 
-st.subheader("Break-even Analyse")
-
 st.write(f"Wir benötigen mindestens **{break_even_members:.1f} Mitglieder**, um die Kosten zu decken.")
-
-st.write(f"**Einnahmen:** {revenue:.2f} €")
-st.write(f"**Kosten:** {total_costs:.2f} €")
-st.write(f"**Ergebnis:** {profit:.2f} €")
-
-# ---------------------------
-# Szenario-Hinweise
-# ---------------------------
-st.header("Interpretation")
 
 if room_cost > 0:
     st.write("-> Raumkosten sind berücksichtigt (z.B. näherer Proberaum).")
@@ -64,3 +53,12 @@ if profit < 0:
     st.write("- Beiträge erhöhen")
     st.write("- Mehr Mitglieder gewinnen")
     st.write("- Kosten reduzieren")
+
+# ---------------------------
+# Szenario-Hinweise
+# ---------------------------
+st.header("Berechnungsdetails")
+
+st.write(f"**Einnahmen:** {revenue:.2f} €")
+st.write(f"**Kosten:** {total_costs:.2f} €")
+st.write(f"**Ergebnis:** {profit:.2f} €")
