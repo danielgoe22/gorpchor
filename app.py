@@ -51,7 +51,7 @@ st.write(f"Wir benötigen mindestens **{break_even_members:.1f} Mitglieder**, um
 # ---------------------------
 # Szenario-Hinweise
 # ---------------------------
-st.header("💡 Interpretation")
+st.header("Interpretation")
 
 if room_cost > 0:
     st.write("👉 Raumkosten sind berücksichtigt (z.B. näherer Proberaum).")
