@@ -12,7 +12,7 @@ st.header("Eingaben")
 members = st.number_input("Anzahl regelmäßig zahlender Mitglieder", min_value=0, value=18)
 fee = st.number_input("Monatsbeitrag pro Person (€)", min_value=0.0, value=20.0)
 
-choir_leader_1 = st.number_input("Kosten Gulia (€ / Monat)", min_value=0.0, value=250.0)
+choir_leader_1 = st.number_input("Kosten Guilia (€ / Monat)", min_value=0.0, value=250.0)
 choir_leader_2 = st.number_input("Kosten Clara (€ / Monat)", min_value=0.0, value=0.0)
 
 room_cost = st.number_input("Raumkosten (€ / Monat)", min_value=0.0, value=0.0)
