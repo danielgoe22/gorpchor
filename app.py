@@ -54,13 +54,13 @@ st.write(f"Wir benötigen mindestens **{break_even_members:.1f} Mitglieder**, um
 st.header("Interpretation")
 
 if room_cost > 0:
-    st.write("👉 Raumkosten sind berücksichtigt (z.B. näherer Proberaum).")
+    st.write("-> Raumkosten sind berücksichtigt (z.B. näherer Proberaum).")
 
 if choir_leader_2 > 0:
-    st.write("👉 Clara ist als zweite Chorleitung eingeplant.")
+    st.write("-> Clara ist als zweite Chorleitung eingeplant.")
 
 if profit < 0:
-    st.write("👉 Optionen:")
+    st.write("-> Optionen:")
     st.write("- Beiträge erhöhen")
     st.write("- Mehr Mitglieder gewinnen")
     st.write("- Kosten reduzieren")
