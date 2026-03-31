@@ -48,12 +48,6 @@ if room_cost > 0:
 if choir_leader_2 > 0:
     st.write("-> Clara ist als zweite Chorleitung eingeplant.")
 
-if profit < 0:
-    st.write("-> Optionen:")
-    st.write("- Beiträge erhöhen")
-    st.write("- Mehr Mitglieder gewinnen")
-    st.write("- Kosten reduzieren")
-
 # ---------------------------
 # Szenario-Hinweise
 # ---------------------------
