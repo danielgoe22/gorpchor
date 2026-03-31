@@ -35,10 +35,6 @@ else:
 # ---------------------------
 st.header("Ergebnisse")
 
-st.write(f"**Einnahmen:** {revenue:.2f} €")
-st.write(f"**Kosten:** {total_costs:.2f} €")
-st.write(f"**Ergebnis:** {profit:.2f} €")
-
 if profit >= 0:
     st.success("✅ Unser Chor ist finanziell tragfähig!")
 else:
@@ -47,6 +43,10 @@ else:
 st.subheader("Break-even Analyse")
 
 st.write(f"Wir benötigen mindestens **{break_even_members:.1f} Mitglieder**, um die Kosten zu decken.")
+
+st.write(f"**Einnahmen:** {revenue:.2f} €")
+st.write(f"**Kosten:** {total_costs:.2f} €")
+st.write(f"**Ergebnis:** {profit:.2f} €")
 
 # ---------------------------
 # Szenario-Hinweise
